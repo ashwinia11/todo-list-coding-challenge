@@ -1,0 +1,11 @@
+.todos h2 {
+  color: teal;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.todos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

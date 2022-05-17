@@ -1,0 +1,31 @@
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.status {
+  border-radius: 30px;
+  padding: 0.15rem 1.5rem;
+  background-color: #acfd8d;
+  color: white;
+  font-size: 1rem;
+}
+
+.pending {
+  background-color: #e79d9d;
+}
+
+.item p {
+  color: #3a3a3a;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}

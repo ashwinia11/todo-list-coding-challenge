@@ -1,0 +1,41 @@
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: teal;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #cdf0f0;
+  border-color: #025050;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background: rgb(228, 186, 186);
+}
+
+.form-control.invalid label {
+  color: red;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

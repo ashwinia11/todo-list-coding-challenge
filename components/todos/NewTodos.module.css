@@ -1,0 +1,21 @@
+.placeholder {
+  margin: 4rem;
+  text-align: center;
+}
+
+.todos {
+  max-width: 80rem;
+  background-color: #313131;
+  color: white;
+}
+
+.todos h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
